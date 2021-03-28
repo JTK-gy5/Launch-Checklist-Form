@@ -97,8 +97,6 @@ function updateRequirements () {
            launchReadyness.style.color = 'red'
            listMass.innerHTML = 'Shuttle mass too heavy for launch!'
        }
-   } else {
-       console.log('document elements not found!')
    }
    return
 }
